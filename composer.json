@@ -1,0 +1,22 @@
+{
+    "name": "lisync/is-nsfw",
+    "description": "validate if link contains nsfw contents",
+    "type": "library",
+    "authors": [
+        {
+            "name": "ahmad",
+            "email": "ahmadmarafa@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+        "itx_utilities/dom_fetcher": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lisync\\IsNsfw\\" :  "src" 
+        }
+    },
+    "minimum-stability": "dev-master" ,
+    "prefer-stable": true
+}
